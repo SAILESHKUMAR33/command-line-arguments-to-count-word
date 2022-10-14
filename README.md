@@ -6,20 +6,37 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+As a first step import sys
 
 ### Step 2: 
+Create a file.txt and add a content
  
 ### Step 3: 
+Split the words using .split() function
 
-### Step 4:  
+### Step 4: 
+Read the words 
 
 ### Step 5: 
+Run the program
 
-### Step 6: 
+### step 6:
+End the program
 
 ## PROGRAM:
+```python
 
+#Developed by: Saileshkumar A
+#Register Number: 22003843
+
+import sys
+fp= open(sys.argv[1])
+data=fp.read()
+words=data.split()
+print("Number of words:",len(words))
+```
 ### OUTPUT:
+![output](c3.png)
 
 
 
